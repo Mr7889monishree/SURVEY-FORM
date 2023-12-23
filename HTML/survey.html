@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="images/icons8-survey-50.png" type="image/X-icon">
+</head>
+<body>
+    <form  action="https://httpbin.org/get"  method="get"   class="demo">
+        <tr>
+            <td>
+                <label for="name">Name</label>
+            </td>
+            <br>
+            <td>
+                <input type="text" id="name"  placeholder="Enter Your Name" required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for="Email">Email</label>
+            </td>
+            <br>
+            <td>
+                <input type="email" id="Email" placeholder="Enter Your Mail">
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for="age">Age</label>
+            </td>
+            <br>
+            <td>
+                <input type="text" id="age" placeholder="Age" required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for="pass">Password</label>
+            </td>
+            <br>
+            <td>
+                <input type="password" id="pass" placeholder="Password" required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for="feauture">Which one is Your Favorite Feature in Social Media</label>
+                <br>
+                <input type="text" id="feature" list="content-list">
+            </td>
+            <td>
+                <datalist id="content-list">
+                    <option value="instagram">instagram</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="Watsapp">Whatsapp</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Threads">Threads</option>
+                    <option value="Gaming app">Gaming App</option>
+
+
+                </datalist>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <label for="food">Favorite Food</label>
+            </td>
+            <br>
+            <td>
+                <input type="text" id="food" name="food" placeholder="Your Choice">
+            </td>
+
+        </tr>
+        <br>
+        <td>
+            <label for="profession">Profession</label>
+        </td>
+        <br>
+        <td>
+            <input type="checkbox" class="style" id="profession" name="profession" value="Student">
+            <label for="student">&nbsp;&nbsp; Student</label>
+            <input type="checkbox" class="style" id="profession" name="profession" value="Teacher">
+            <label for="Teacher">&nbsp;&nbsp; Teacher</label>
+            <input type="checkbox" class="style" id="profession" name="profession" value="Employee">
+            <label for="Employee">&nbsp;&nbsp; Employee</label>
+            <input type="checkbox" class="style" id="profession" name="profession" value="Other">
+            <label for="Other">&nbsp;&nbsp;Other</label>
+            
+        </td>
+        <br>
+        <br>
+        <tr>
+            <td>
+                <label for="domain">Interested Domain</label>
+            </td>
+            <br>
+            <td>
+                <input type="text" id="domain" name="domain" placeholder="Your Domain Of Interest" required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <button type="submit" formaction="https:://httpbin.org/get" formmethod="post">Submit</button>
+        </tr>
+    </form>
+</body>
+</html>

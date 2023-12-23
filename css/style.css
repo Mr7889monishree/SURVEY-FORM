@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1.5rem;
+}
+body{
+    background-image:url(../images/clear.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+form{
+    background-color:rgba(0,0,0,0.7);
+
+}
+.demo{
+    color: bisque;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    border: 2px solid white;
+    width: 50%;
+    height: 100%;
+    margin-inline: auto;
+    padding: 0.5rem;
+    line-height: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.style{
+    transform: translateX(-50%) translateY(150%);
+}
+input,button{
+    font-size: 1.15rem;
+    cursor: pointer;
+}

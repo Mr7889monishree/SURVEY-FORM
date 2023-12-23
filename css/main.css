@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.videocontainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+
+}
+video{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0%;
+    top:0%;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-size: 3.5rem;
+}
+a{
+    border: 2px solid black;
+    background-color:rgba(0,0,0,0.7);
+    cursor: pointer;
+    text-shadow: 2px 2px 5px black;
+    color: bisque;
+    text-decoration: none;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
